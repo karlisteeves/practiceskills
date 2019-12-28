@@ -29,6 +29,18 @@ public class Operators {
         result += 2; // 1 + 2 = 3
         System.out.println("1 + 2 = " +result);
 
+        //result = result * 10;
+        result *= 10; //3 * 10 = 30
+        System.out.println("3 * 10 = " +result);
+
+        result /= 3; // 30 / 3 = 10
+        System.out.println("30 / 3 = " +result);
+
+        boolean isAlien = false;
+        if(isAlien == false) { //if you put a semi colon here, you are closing off the execution at this line. Therefore, even if the condition is not met, the next phase of the code will execute regardless. Do NOT do this.
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens.");
+        } //putting the { after the if is called a codeblock and allows a block of code to be executed, not just a line.
 
     }
 }
