@@ -42,5 +42,16 @@ public class Operators {
             System.out.println("And I am scared of aliens.");
         } //putting the { after the if is called a codeblock and allows a block of code to be executed, not just a line.
 
+        int topScore = 80;
+        if(topScore <= 100){
+            System.out.println("You got the high score!");
+        }
+
+        int secondScore = 60;
+        if(topScore > secondScore && topScore < 100){
+            System.out.println("Greater than second score and less than 100!");
+        }
+
+
     }
 }
