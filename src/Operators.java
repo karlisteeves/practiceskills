@@ -48,10 +48,13 @@ public class Operators {
         }
 
         int secondScore = 60;
-        if(topScore > secondScore && topScore < 100){
+        if((topScore > secondScore) && (topScore < 100)){
             System.out.println("Greater than second score and less than 100!");
         }
 
-
+        if ((topScore > 90) || (secondScore <= 90)){
+            System.out.println("Either or both of the conditions are true.");
+        }
+        //logical OR or AND needs TWO &&/|| and operates based on boolean, if not it is a bitwise.
     }
 }
