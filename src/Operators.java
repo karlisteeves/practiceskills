@@ -47,7 +47,7 @@ public class Operators {
             System.out.println("You got the high score!");
         }
 
-        int secondScore = 60;
+        int secondScore = 91;
         if((topScore > secondScore) && (topScore < 100)){
             System.out.println("Greater than second score and less than 100!");
         }
@@ -56,5 +56,26 @@ public class Operators {
             System.out.println("Either or both of the conditions are true.");
         }
         //logical OR or AND needs TWO &&/|| and operates based on boolean, if not it is a bitwise.
+
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("this is a true");
+        }
+
+        boolean isCar = false;
+        if(isCar){
+            System.out.println("This is not a car");
+        }
+        //use == to see if something equals to something. just using = will assign that var a value.
+
+        //ternary is scurry but we can figure it out, basically short cuts to if/else statements.
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar){
+            System.out.println("wasCar is true");
+        }
     }
+
+
+
 }
