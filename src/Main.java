@@ -1,6 +1,15 @@
 public class Main {
 
     public static void main(String[] args) {
-        int myVariable = 50;
+        boolean gameOver = true;
+        int score = 500;
+        int levelCompleted = 5;
+        int bonus = 100;
+
+        if(score < 5000){
+            System.out.println("Your score was " + score);
+        } else {
+            System.out.println("Your score was " + score);
+        }
     }
 }
