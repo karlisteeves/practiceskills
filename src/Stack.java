@@ -26,6 +26,10 @@ public class Stack{
         return data;
     }
 
+    public int size(){
+
+    }
+
     public void show(){
         for(int n : stack){
             System.out.print(n + " ");
