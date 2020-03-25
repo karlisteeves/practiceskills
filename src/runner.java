@@ -5,5 +5,12 @@ public class runner{
 
         Stack items = new Stack();
         items.push(5);
+        items.push(10);
+        items.push(15);
+        System.out.println(items.pop());
+
+        items.show();
     }
+
+
 }
