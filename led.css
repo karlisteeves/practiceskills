@@ -48,3 +48,38 @@ body {
     width: 85%;
     height: 65%;
 }
+.hour{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 28%;
+    height: calc(100% - 20px);
+}
+.colon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 100px;
+    text-align: center;
+    color: red;
+}
+.c1{
+    left: 31%;
+}
+.min{
+    position: absolute;
+    top: 10px;
+    left: 36%;
+    width: 28%;
+    height: calc(100% - 20px);
+}
+.c2{
+    left: 64%;
+}
+.sec{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 28%;
+    height: calc(100% - 20px);
+}
