@@ -14,3 +14,5 @@ window.onload = function(){
 
     setInterval(setTime, 1000);
 }
+
+//this is a test for git desktop commit 
